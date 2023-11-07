@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-//import App from './App.jsx'
+import App from './App.jsx'
 // import Test from './Test.jsx'
 // import Test2 from './Test2.jsx'
-import Test3 from './Test3.jsx'
-import Test4 from './Test4.jsx'
+import Test3 from './test/Test3.jsx'
+import Test4 from './test/Test4.jsx'
 import Landing from './Landing.jsx'
 import Login from './Login.jsx'
 import Profile from './Profile.jsx'
@@ -23,7 +23,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Dashboard />
     <Test3 /> 
     <Test4 /> */}
+    <App />
     
-    <Profile />
   </ContextProvider>,
 )

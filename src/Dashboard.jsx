@@ -1,9 +1,9 @@
 import React from "react";
 
-import Navbar from "./Test9";
-import Sidebar from "./Test11";
-import LineChart from "./Test8";
-import BarChart from "./Test7";
+import Navbar from "./test/Test9";
+import Sidebar from "./test/Test11";
+import LineChart from "./test/Test8";
+import BarChart from "./test/Test7";
 
 export default function Dashboard() {
   return (

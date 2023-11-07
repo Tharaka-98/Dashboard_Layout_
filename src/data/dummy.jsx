@@ -26,7 +26,7 @@ import product8 from './product8.jpg';
 export const gridOrderImage = (props) => (
   <div>
     <img
-      className="rounded-xl h-20 md:ml-3"
+      className="h-20 rounded-xl md:ml-3"
       src={props.ProductImage}
       alt="order-item"/>
   </div>
@@ -36,7 +36,7 @@ export const gridOrderStatus = (props) => (
   <button
     type="button"
     style={{ background: props.StatusBg }}
-    className="text-white py-1 px-2 capitalize rounded-2xl text-md"
+    className="px-2 py-1 text-white capitalize rounded-2xl text-md"
   >
     {props.Status}
   </button>
@@ -63,7 +63,7 @@ export const kanbanGrid = [
 const gridEmployeeProfile = (props) => (
   <div className="flex items-center gap-2">
     <img
-      className="rounded-full w-10 h-10"
+      className="w-10 h-10 rounded-full"
       src={props.EmployeeImage}
       alt="employee"
     />
@@ -120,9 +120,9 @@ export const EditorData = () => (
   </div>
 );
 const customerGridImage = (props) => (
-  <div className="image flex gap-4">
+  <div className="flex gap-4 image">
     <img
-      className="rounded-full w-10 h-10"
+      className="w-10 h-10 rounded-full"
       src={props.CustomerImage}
       alt="employee"
     />
@@ -134,8 +134,8 @@ const customerGridImage = (props) => (
 );
 
 const customerGridStatus = (props) => (
-  <div className="flex gap-2 justify-center items-center text-gray-700 capitalize">
-    <p style={{ background: props.StatusBg }} className="rounded-full h-3 w-3" />
+  <div className="flex items-center justify-center gap-2 text-gray-700 capitalize">
+    <p style={{ background: props.StatusBg }} className="w-3 h-3 rounded-full" />
     <p>{props.Status}</p>
   </div>
 );
@@ -825,7 +825,7 @@ export const themeColors = [
   },
   {
     name: 'green-theme',
-    color: '#03C9D7',
+    color: '#3ebd93',
   },
   {
     name: 'purple-theme',
@@ -837,7 +837,7 @@ export const themeColors = [
   },
   {
     name: 'indigo-theme',
-    color: '#1E4DB7',
+    color: '#0033a0',
   },
   {
     color: '#FB9678',

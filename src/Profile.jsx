@@ -1,7 +1,7 @@
 import React from "react";
 
-import Navbar from "./Test5";
-import Footer from "./Test6";
+import Navbar from "./test/Test5";
+import Footer from "./test/Test6";
 import team2 from "./assets/img/team-2-800x800.jpg"
 
 export default function Profile() {
